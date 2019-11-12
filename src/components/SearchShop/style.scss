@@ -1,0 +1,16 @@
+.search-shop-container {
+    @media only screen and (min-width: 576px) {
+        min-width: 325px;
+        margin: 0 10px;
+      }
+    height: 32px;
+    .search-shop__control{
+        min-height: 30px;
+        height: 32px;
+        .search-shop__value-container{
+            max-height: 32px;
+            font-size: 16px;
+            line-height: 1;
+        }
+    }
+}

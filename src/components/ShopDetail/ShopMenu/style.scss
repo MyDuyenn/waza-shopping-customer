@@ -1,0 +1,25 @@
+
+.panel-title{
+    text-align: center;
+  }
+  h4 {
+    font-family: "Playfair Display", serif;
+    color: #000;
+  }
+  .panel-body {
+    text-align:  left;
+    label {
+      font-size: 13px;
+    }
+  }
+  @media all and (max-width:768px)
+{
+    .shop-container-card-header
+    {
+        .panel-heading {
+          width: 100%;
+        }
+        
+      }
+       
+    }

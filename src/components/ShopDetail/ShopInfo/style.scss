@@ -1,0 +1,46 @@
+
+.shop-container {
+    padding-top: 80px;
+}
+
+.shop-container-card-header {
+    height: 400px;
+    img {
+      
+       
+        padding-top: 3%;
+        padding-bottom: 3%;
+        
+    }
+    .shop-card-header-info {
+        text-align: left;
+        margin-left: 50px;
+        top: 50%;
+        padding-top: 15%;
+
+        .shop-status {
+            color: #6cc942;
+        }
+        .shop-rating {
+            color: #ffc107;
+            margin-left: -7%;
+        }
+    }
+}
+@media all and (max-width:425px)
+{
+    .shop-container-card-header
+    {
+        height: 100%;
+        img 
+        {
+            // padding-top: 20%;
+        }
+        .shop-card-header-info
+        {
+            // padding-top: 20%; 
+            left: 5%;
+        }
+       
+    }
+}

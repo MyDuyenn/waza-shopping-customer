@@ -1,0 +1,41 @@
+.text-link-main{
+ color: #344E5C;
+    &:hover{
+        color: white!important;
+        text-decoration: none;
+    }
+    &:active{
+        color: white;
+    }
+}
+.navbar-image{
+    max-width: 100px;
+}
+.navbar-shop-search {
+    padding: 0px;
+    background: #E17A47;
+    color: #344E5C;
+    .accordion{
+        .btn {
+            font-size: 14px;
+        }
+    }
+    @media only screen and (min-width: 577px) {
+        display: none;
+    }
+    &-sm{
+        padding: 0px 4px 6px 4px;
+      }
+}
+.navbar-shop-search-lg{
+        @media only screen and (max-width: 576px) {
+            display: none!important;
+          }        
+}
+
+.navbar-main{
+    z-index: 9999;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
